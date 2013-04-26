@@ -1,0 +1,346 @@
+
+ main.css 
+ASCII C program text
+@charset "utf-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family: 'Brody';
+	src: url('../fonts/brody-webfont.eot');
+	src: url('../fonts/brody-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/brody-webfont.woff') format('woff'),
+	         url('../fonts/brody-webfont.ttf') format('truetype'),
+	         url('../fonts/brody-webfont.svg#BrodyRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+	background:#000000;
+}
+
+
+#main_content{position:relative;}
+
+#HeaderBackground{
+	width:100%;
+	position:absolute;
+	height:200px;
+	background: rgba(20, 0, 0, 0.8);
+	top:0; left:0;
+	z-index:1;
+}
+
+#HeaderBackground2{
+	width:100%;
+	position:absolute;
+	height:150px;
+	background: rgba(20, 0, 0, 0.8);
+	top:0; left:0;
+	z-index:1;
+}
+
+#wrapper{
+	width:960px;
+	position:relative;
+	margin:0 auto;
+	z-index:1;
+}
+
+#wrapper{
+	width:960px;
+	position:relative;
+	margin:0 auto;
+	z-index:1;
+}
+
+header{
+	height:200px;
+	padding: 5px 20px 0 20px;
+	z-index:2;
+}
+
+	#ribbon img{
+		position:absolute;
+		width:150px;
+		height:150px;
+		z-index:3;
+	}
+
+	#ribbon img:hover{
+		position:absolute;
+		width:155px;
+		height:155px;
+		z-index:3;
+	}
+
+	#main_logo{
+		position:absolute;
+		margin:0 0 0 280px;
+		height:350px;
+		width:400px;
+		font-family: Brody, verdana, helvetica, sans-serif;
+	}
+	
+	
+		#main_logo h1 {	
+			padding:0 0 0 80px;
+			color:#FF0;
+			font-size:60px;
+			text-shadow:4px 4px #F00;
+			filter: DropShadow(Color=red); /* IE Proprietary Filter*/
+			height:70px;
+		}
+		
+		
+		#main_logo img {
+			position:absolute;
+			float:left;
+			padding:18px auto;
+			width:120px;
+			height:120px;
+		}
+		
+		
+		#main_logo h2{
+			padding:0px 0 0 130px;
+			color:#FFF;
+			font-size: 35px;
+			text-shadow:4px 4px #000;
+			filter: DropShadow(Color=black);  /* IE Proprietary Filter*/
+		}
+		
+	
+		
+	#head_right{
+		position:absolute;
+		margin:0 0 0 800px;
+		font-family:verdana;
+	}
+	
+		
+	#order_logo{
+		padding:0 0 0 0px;
+		height:40px;
+		width:90px;
+	}
+	
+	.social{
+		padding:0 10px 0 0;
+		width:20px;
+		height:20px;
+		-webkit-transition-duration: 0.8s;
+		    -moz-transition-duration: 0.8s;
+		    -o-transition-duration: 0.8s;
+		    transition-duration: 0.8s;
+		     
+		    -webkit-transition-property: -webkit-transform;
+		    -moz-transition-property: -moz-transform;
+		    -o-transition-property: -o-transform;
+		    transition-property: transform;
+		     
+		    overflow:hidden;
+		 
+	}
+	
+	.social:hover{ 
+	    -webkit-transform:rotate(360deg);
+	    -moz-transform:rotate(360deg); 
+	    -o-transform:rotate(360deg);
+	}		
+	
+		
+	
+	nav { 
+		position:relative;
+		top:150px;
+		left:0;
+		width:100%; 
+		background: url("../imgs/nav_background.png");
+	}
+	
+		nav ul {
+			margin:0 auto;
+			width:940px;
+			list-style:none;
+		
+		}
+		
+			nav ul li{
+				float: left;
+			}
+			
+			nav #active {
+				color:#FF0;
+				-moz-box-shadow: 1px 1px 50px 20px rgba(255, 0, 0, 0.7);
+				-webkit-box-shadow: 1px 1px 50px 20px rgba(255, 0, 0, 0.7);
+				filter: progid:DXImageTransform.Microsoft.Shadow(color='red', Direction= 135, Strength=8);/* IE Proprietary Filter*/
+				zoom:1;		
+			}
+			
+				nav ul li a{
+					display:block;
+					margin-right:10px;
+					width:140px;
+					font-size:18px;
+					font-family: 'Comfortaa', cursive;
+					color: #FFF;
+					text-align: center;
+					text-transform: uppercase;
+					text-decoration: none;
+					-moz-box-shadow: 0px 0px 0px 0px rgba(255, 0, 0, 0.6);
+					-moz-transition: color 1s, -moz-box-shadow 1s;
+					-webkit-box-shadow: 0px 0px 0px 0px rgba(255, 0, 0, 0.6);
+					-webkit-transition: color 1s, -webkit-box-shadow 1s;
+				}
+				
+					nav ul li a:hover {
+						color:#FF0;
+						-moz-box-shadow: 1px 1px 50px 20px rgba(255, 0, 0, 0.7);
+						-webkit-box-shadow: 1px 1px 50px 20px rgba(255, 0, 0, 0.7);
+						filter: progid:DXImageTransform.Microsoft.Shadow(color='red', Direction= 135, Strength=8);/* IE Proprietary Filter*/
+						zoom:1;
+					}
+
+#content{
+	position:relative;
+	width:100%;
+	border-radius:20px;
+	background: rgba(30, 0, 0, 0.6);
+	z-index:1;
+}
+
+#section_header{
+	margin:5px 0 0 0;
+	position:relative;
+	color:orangered;
+	font-size:60px;
+	font-family: 'Comfortaa', cursive;
+}
+
+section{
+	position:relative;
+	padding:20px;
+}
+
+#gallery{
+	display:inline;
+	text-align:center;
+	margin:0 0 0 22px;
+}
+
+#main-choice {
+	float:left;
+	width:290px;
+}
+
+
+#main-choice img{
+	width:270px;
+	height:300px;
+	border:3px solid white;
+	border-radius:20px;
+}
+
+#main-choice img:hover{
+	cursor:pointer;
+	width:270px;
+	height:300px;
+	border:3px solid red;
+	border-radius:20px;
+}
+
+#slideshow {float:left;}
+			
+article{
+	width:100%;
+	color:yellow;
+	font-family: 'Poiret One', cursive;
+	text-shadow:1px 1px #000;
+	font-size:28px;
+}
+
+#location_content{
+	height:700px;
+}
+
+#locations_section{
+	width:425px;
+	float:left;
+}
+
+#map_section{
+	width:475px;
+	float:left;
+	
+}
+
+#locations_pic{
+	margin:0 10px 0 0;
+	float:left;
+}
+
+#locations_pic img{
+	width:200px;
+	height:150px;
+	border-radius:15px;
+	border:1px solid red;
+}
+
+.location_info{
+	
+	height:200px;
+	width:425px;
+}
+
+.location_info h1{font-size:25px; color:yellow; font-family: 'Comfortaa', cursive;}
+.location_info p{font-size:18px; color:white; font-family: 'Comfortaa', cursive;}
+
+
+footer{
+	text-align:center;
+	color:white;
+	font-family:verdana;
+	font-size:10px;	
+	margin:0 0 20px 0;
+	color:gainsboro;
+	}
+footer a{color:gray;}
+
+
+
+
+.menu-listing{
+	text-align:center; 
+	width:400px;
+	background-color:rgba(255,0,0,0.4);
+	font-size:40px;
+	font-weight:bold;
+	border-radius:10px;
+	-moz-box-shadow: 0px 0px 0px 0px rgba(255, 0, 0, 0.4);
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(255, 0, 0, 0.6);
+}
+
+.menu-listing:hover{
+	cursor:pointer;
+	background-color:rgba(255,0,0,0.7);
+	font-size:40px;
+	border-radius:10px;
+	-moz-box-shadow: 1px 1px 50px 20px rgba(255, 0, 0, 0.4);
+	-webkit-box-shadow: 1px 1px 30px 10px rgba(255, 0, 0, 0.5);
+}
+
+.menu-details{
+	display:none;
+	text-align:left;
+	font-size:22px;
+	font-weight:bold;
+	width:400px;
+}
+
+.menu-details em{
+	font-size:15px;
+	color:#FFFF99;
+}
